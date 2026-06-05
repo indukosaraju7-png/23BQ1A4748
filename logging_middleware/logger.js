@@ -1,0 +1,13 @@
+export const log = (
+  stack,
+  level,
+  packageName,
+  message
+) => {
+  console.log({
+    stack,
+    level,
+    packageName,
+    message,
+  });
+};
